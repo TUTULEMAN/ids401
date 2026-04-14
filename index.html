@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ids401 — Pokémon Manager (Code)</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  <style>
+    body{font-family:Segoe UI,Roboto,Arial,sans-serif;max-width:960px;margin:36px auto;padding:0 20px;color:#111}
+    pre{background:#f6f8fa;padding:16px;border-radius:8px;overflow:auto}
+    header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+    a.button{background:#0366d6;color:#fff;padding:8px 12px;border-radius:6px;text-decoration:none}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ids401 — Pokémon Manager</h1>
+    <div><a class="button" href="https://github.com/TUTULEMAN/ids401">View on GitHub</a></div>
+  </header>
+
+  <p>This page shows the project source for quick browsing. The raw file is available below.</p>
+
+  <p>Source: <a href="pokemonmanager.java">pokemonmanager.java</a></p>
+
+  <pre><code id="code" class="language-java"></code></pre>
+
+  <script>
+    async function loadCode(){
+      const res = await fetch('pokemonmanager.java');
+      const text = await res.text();
+      const el = document.getElementById('code');
+      el.textContent = text;
+      hljs.highlightElement(el);
+    }
+    loadCode().catch(()=>{document.getElementById('code').textContent='Could not load source.'});
+  </script>
+</body>
+</html>
