@@ -7,12 +7,17 @@ Contents:
 
 **Opening screen:**
 ![Opening screen](opening_screen.png)
+*The main window on launch — enter a Pokémon name or ID to search, or hit Random Pokémon.*
 
 **Pokémon search result:**
 ![Search result](search_result.png)
+*Search result for Budew (#406) showing its sprite, types, ability, height, weight, and HP bar.*
+
 
 **Sort Collection view:**
 ![Sort collection](sort_collection.png)
+*The Sort Collection view lists all saved Pokémon by ability name, ID, and types.*
+
 
 
 GitHub Pages:
