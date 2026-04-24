@@ -6,13 +6,13 @@ Contents:
 - `pokemonmanager.java` — main source file
 
 **Opening screen:**
-![Opening screen](screenshots/opening_screen.png)
+![Opening screen](opening_screen.png)
 
 **Pokémon search result:**
-![Search result](screenshots/search_result.png)
+![Search result](search_result.png)
 
 **Sort Collection view:**
-![Sort collection](screenshots/sort_collection.png)
+![Sort collection](sort_collection.png)
 
 
 GitHub Pages:
