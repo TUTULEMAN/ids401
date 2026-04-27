@@ -1,9 +1,21 @@
-# ids401 — Pokémon Manager
+# IDS401 — Pokémon Manager
 
-Simple Java Swing demo project for managing a small Pokémon collection.
+Simple Java Swing demo project for managing a small Pokémon collection. It demonstrates core Java concepts inlcuding object-oriented programming, GUI development, API integration, file I/O, and classic sorting/searching algorithms.
 
 Contents:
 - `pokemonmanager.java` — main source file
+
+## Features
+- **Search by name or ID** - fetch live Pokémon data from the [PokéAPI](https://pokeapi.co/)
+- **Random Pokémon** - generates a random ID (1-1025) and fetched that Pokémon
+- **Sprite display** — renders the official Pokémon front sprite using Java2D graphics
+- **Stat bar visualization** — draws HP and stat bars directly on a custom graphics panel
+- **Sort collection** — sorts your saved Pokémon alphabetically using bubble sort
+- **Binary search** — search your sorted collection efficiently by name
+- **Save/Load CSV** — persist your collection to a local `pokemon_collection.csv` file
+- **Save/Load Database** — store and retrieve your collection from a MySQL database via JDBC
+
+## Screenshots
 
 **Opening screen:**
 ![Opening screen](opening_screen.png)
@@ -37,5 +49,5 @@ java PokemonManager
 ```
 
 Notes:
-- This project is a demo; database credentials and API usage are placeholders.
+- This project is a course demo; database credentials and API usage are placeholders.
 - Files added for Pages live in the repository and are safe for public browsing.
