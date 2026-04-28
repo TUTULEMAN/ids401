@@ -51,3 +51,8 @@ java PokemonManager
 Notes:
 - This project is a course demo; database credentials and API usage are placeholders.
 - Files added for Pages live in the repository and are safe for public browsing.
+
+Updates (4/28/26):
+- Made the health bar dynamic so it scales based on each Pokemon's real stats.
+- Added more dynamic stat bars at the bottom (Attack, Defense, Sp. Atk, Sp. Def, and Speed).
+- Fixed the Excel/CSV export-import behavior so it is functional and no longer a placeholder.
