@@ -1,6 +1,6 @@
 # IDS401 — Pokémon Manager
 
-Simple Java Swing demo project for managing a small Pokémon collection. It demonstrates core Java concepts inlcuding object-oriented programming, GUI development, API integration, file I/O, and classic sorting/searching algorithms.
+Simple Java Swing demo project for managing a small Pokémon collection. It demonstrates core Java concepts including object-oriented programming, GUI development, API integration, file I/O, and classic sorting/searching algorithms.
 
 Contents:
 - `pokemonmanager.java` — main source file
@@ -23,12 +23,12 @@ Contents:
 
 **Pokémon search result:**
 ![Search result](search_result.png)
-*Search result for Pikachu (#25) showing its sprite, types, ability, height, weight, and HP bar.*
+*Search result for Pikachu (#25) showing its sprite, types, ability, height, weight, and all six stat bars.*
 
 
 **Sort Collection view:**
 ![Sort collection](sort_collection.png)
-*The Sort Collection view lists all saved Pokémon by ability name, ID, and types sorted alphabetically.*
+*The Sort Collection view lists all saved Pokémon sorted alphabetically by name.*
 
 
 
