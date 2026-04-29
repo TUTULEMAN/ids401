@@ -47,6 +47,45 @@ javac pokemonmanager.java
 ```powershell
 java PokemonManager
 ```
+## Database
+
+This project uses SQLite, which stores the entire database as a single local file — no server setup required.
+
+**Location:**
+The database file `pokemon.db` is created automatically in whichever directory you run the program from. For example, if you compile and run from your project folder, it will appear there as:
+
+/your/project/folder/pokemon.db
+
+**How to view it in the terminal (Mac):**
+**How to view it in the terminal (Mac):**
+1. Open Terminal and navigate to the project folder:
+```bash
+cd /path/to/eclipse-workspace/PokemonManager
+```
+2. Open the database with the SQLite CLI:
+```bash
+sqlite3 pokemon.db
+```
+3. View the table contents:
+```sql
+SELECT * FROM pokemon;
+```
+4. Exit when done:
+```bash
+.quit
+```
+
+**What it contains:**
+The `pokemon` table has one row per saved Pokémon with these columns:
+
+| Column | Type | Example |
+|--------|------|---------|
+| id | INT | 25 |
+| name | VARCHAR(50) | pikachu |
+| height | DOUBLE | 0.4 |
+| weight | DOUBLE | 6.0 |
+| types | VARCHAR(100) | electric |
+
 
 Notes:
 - This project is a course demo; database credentials and API usage are placeholders.
