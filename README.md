@@ -23,12 +23,12 @@ Contents:
 
 **Pokémon search result:**
 ![Search result](search_result.png)
-*Search result for Budew (#406) showing its sprite, types, ability, height, weight, and HP bar.*
+*Search result for Pikachu (#25) showing its sprite, types, ability, height, weight, and HP bar.*
 
 
 **Sort Collection view:**
 ![Sort collection](sort_collection.png)
-*The Sort Collection view lists all saved Pokémon by ability name, ID, and types.*
+*The Sort Collection view lists all saved Pokémon by ability name, ID, and types sorted alphabetically.*
 
 
 
